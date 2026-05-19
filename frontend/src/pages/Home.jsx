@@ -106,7 +106,7 @@ const Home = () => {
 
               {/* Quick stats */}
               <div style={{ display: 'flex', gap: '2.5rem', marginTop: '2.5rem', flexWrap: 'wrap' }}>
-                {[['500+', 'Properties Listed'], ['15+', 'Years of Trust'], ['₹500 Cr+', 'Transactions'], ['50+', 'Cities Covered']].map(([num, label]) => (
+                {[['500+', 'Properties Listed'], ['15+', 'Years of Trust'], ['Secure and Trusted', 'Transactions'], ['50+', 'Cities Covered']].map(([num, label]) => (
                   <div key={label}>
                     <div style={{ fontSize: '1.35rem', fontWeight: 800, color: '#0f172a' }}>{num}</div>
                     <div style={{ fontSize: '0.75rem', color: '#64748b', fontWeight: 600, marginTop: '0.2rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>{label}</div>
@@ -243,7 +243,7 @@ const Home = () => {
       <section style={{ padding: '5rem 0', background: '#0f172a', color: '#fff' }}>
         <div className="container">
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(150px,1fr))', gap: '2rem', textAlign: 'center' }}>
-            {[['₹500 Cr+', 'Transactions Closed'], ['15+', 'Years of Experience'], ['2,000+', 'Happy Families'], ['50+', 'Cities Covered']].map(([n, l]) => (
+            {[['Secure and Trusted', 'Transactions'], ['15+', 'Years of Experience'], ['2,000+', 'Happy Families'], ['50+', 'Cities Covered']].map(([n, l]) => (
               <div key={l}>
                 <div style={{ fontSize: 'clamp(1.75rem,4vw,2.5rem)', fontWeight: 800, color: '#60a5fa' }}>{n}</div>
                 <div style={{ color: 'rgba(255,255,255,0.55)', marginTop: '0.4rem', fontSize: '0.85rem', fontWeight: 500 }}>{l}</div>
